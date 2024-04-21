@@ -1,7 +1,25 @@
+"use client"
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
+import { useAuth } from "@clerk/nextjs";
+import { useRouter } from "next/navigation";
+import { useProModal } from "@/hooks/use-pro-modal";
 
 const PricingPage = () => {
+  const router = useRouter();
+  const { isSignedIn } = useAuth();
+  
+  const proModal = useProModal();
+  const handleClick = (event:any) => {
+    event.preventDefault();
+    if (isSignedIn) {
+      proModal.onOpen()
+      
+    }
+    else {
+      router.push('/sign-in'); // Use the router to navigate
+    }
+  }
   return (
     <div className="flex flex-col items-center h-full mt-32 py-2">
       <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold text-white mb-6">Our Pricing</h1>
@@ -17,7 +35,7 @@ const PricingPage = () => {
           <ul className="mt-4">
             <li>Limited Access</li>
           </ul>
-          <Link href="/sign-up">
+          <Link href={"/dashboard"}>
             <Button variant="premium" className="mt-6 md:text-lg p-4 md:p-6 rounded-full font-semibold">
               Get Started For Free
             </Button>
@@ -33,11 +51,11 @@ const PricingPage = () => {
           <p className="mt-4 text-lg">
             $20/month
           </p>
-          <Link href="/sign-up">
-            <Button variant="premium" className="mt-6 md:text-lg p-4 md:p-6 rounded-full font-semibold">
+          <a onClick={handleClick} href="/sign-in">
+            <Button  variant="premium" className="mt-6 md:text-lg p-4 md:p-6 rounded-full font-semibold">
               Start Pro Mode
             </Button>
-          </Link>
+          </a>
         </div>
       </div>
       <div className="my-10 text-center">

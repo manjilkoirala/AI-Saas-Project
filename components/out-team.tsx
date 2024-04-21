@@ -48,10 +48,10 @@ const testimonials = [
     title: "Developer",
     description: "I use this daily for generating new photos!",
     socials: {
-      facebook: "https://www.facebook.com/manjil.koirala.98/" ,
-     twitter: "https://twitter.com/manjilhere" ,
-      linkedin: "https://www.linkedin.com/in/manjil-koirala" ,
-     instagram: "https://www.instagram.com/techlearnhere/" ,
+      facebook: "https://www.facebook.com/nishan.baniya.88/" ,
+     twitter: "https://twitter.com/nishanbaniya88" ,
+      linkedin: "https://www.linkedin.com/in/nishanbaniya88/" ,
+     instagram: "https://www.instagram.com/nishan_baniya/" ,
    },
   },
   {
@@ -61,10 +61,10 @@ const testimonials = [
     description:
       "This app has changed my life, cannot imagine working without it!",
       socials: {
-         facebook: "https://www.facebook.com/manjil.koirala.98/" ,
-        twitter: "https://twitter.com/manjilhere" ,
-         linkedin: "https://www.linkedin.com/in/manjil-koirala" ,
-        instagram: "https://www.instagram.com/techlearnhere/" ,
+         facebook: "https://www.facebook.com/prateema.dhakal.18" ,
+        twitter: "https://twitter.com/PrateemaDh65489" ,
+         linkedin: "https://www.linkedin.com/in/pratima-dhakal-586a6124b" ,
+        instagram: "https://www.instagram.com/prateema_dhakal/" ,
       },
   },
 ];
