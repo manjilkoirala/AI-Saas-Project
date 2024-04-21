@@ -1,6 +1,5 @@
 import Footer from '@/components/footer'
 import { LandingNavbar } from '@/components/landing-navbar'
-import { MobileSidebar } from '@/components/mobile-sidebar'
 import React from 'react'
 
 export default async function RootLayout({

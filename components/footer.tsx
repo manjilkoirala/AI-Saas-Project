@@ -72,7 +72,7 @@ const Footer = () => {
             })}
         </div>
     
-      <div className='flex gap-10 py-6'>
+      <div className='flex gap-10 py-6 flex-wrap px-6 items-center justify-center'>
       <Link href="/" className="flex items-center">
         <div className="relative h-8 w-8 mr-4">
           <Image fill alt="Logo" src="/logo.png" />
