@@ -27,7 +27,7 @@ export default async function RootLayout({
         <head>
         <link  rel="shortcut icon" href="/logo.png" />
         </head>
-        <CrispProvider />
+       
         <body className={font.className}>
           <ToasterProvider />
           <ModalProvider />
