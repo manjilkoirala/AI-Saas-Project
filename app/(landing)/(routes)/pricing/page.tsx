@@ -26,8 +26,8 @@ const PricingPage = () => {
       <p className="text-md sm:text-lg md:text-xl lg:text-2xl text-white mb-6 text-center px-4">
         Choose the plan that suits you best. Upgrade, downgrade, or cancel anytime.
       </p>
-      <div className="flex flex-wrap items-start justify-around max-w-4xl mt-6 sm:w-full mb-10">
-        <div className="p-6 mt-6 text-left border w-96 h-full rounded-xl bg-gradient-to-r from-gray-700 to-gray-900 text-white shadow-lg">
+      <div className="flex flex-wrap items-start justify-around  mt-6 gap-10 mb-10 px-4">
+        <div className="p-6 mt-6 text-left border md:w-96 w-72 h-full rounded-xl bg-gradient-to-r from-gray-700 to-gray-900 text-white shadow-lg">
           <h3 className="text-xl font-bold">General</h3>
           <p className="mt-4 text-md">
             Access to basic features.
@@ -42,7 +42,7 @@ const PricingPage = () => {
           </Link>
         </div>
 
-        <div className="p-6 mt-6 text-left border w-96 h-full rounded-xl bg-gradient-to-r from-gray-700 to-gray-900 text-white shadow-lg">
+        <div className="p-6 mt-6 text-left border md:w-96 w-72 h-full rounded-xl bg-gradient-to-r from-gray-700 to-gray-900 text-white shadow-lg">
           <h3 className="text-xl font-bold">Pro</h3>
           <p className="mt-4 text-md">
             Unlimited access to all features.
