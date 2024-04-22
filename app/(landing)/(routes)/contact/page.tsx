@@ -34,7 +34,7 @@ const socials = [
 
 const contact = () => {
   return (
-    <div className='flex flex-col items-center h-full  py-2 w-full justify-center mt-32 mb-10'>
+    <div className='flex flex-col items-center min-h-screen  py-2 w-full justify-center mt-32 mb-10'>
        <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold text-white mb-6">Contact</h1>
        <div className=' grid md:grid-cols-2 items-center gap-4 justify-center'>
         <div className='flex flex-col gap-2 pl-4'>

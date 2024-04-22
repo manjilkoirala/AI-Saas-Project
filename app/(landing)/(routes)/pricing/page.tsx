@@ -21,7 +21,7 @@ const PricingPage = () => {
     }
   }
   return (
-    <div className="flex flex-col items-center h-full mt-32 py-2">
+    <div className="flex flex-col items-center min-h-screen mt-32 py-2">
       <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold text-white mb-6">Our Pricing</h1>
       <p className="text-md sm:text-lg md:text-xl lg:text-2xl text-white mb-6 text-center px-4">
         Choose the plan that suits you best. Upgrade, downgrade, or cancel anytime.
