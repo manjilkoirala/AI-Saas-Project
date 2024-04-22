@@ -2,7 +2,7 @@ import Teams from "@/components/out-team";
 
 const AboutPage = () => {
   return (
-    <div className="flex flex-col items-center min-h-screen">
+    <div className="flex flex-col items-center min-h-screen mt-20">
       <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold text-white mb-6">About Us</h1>
       <p className="text-md sm:text-lg md:text-xl lg:text-2xl text-white  text-center px-4">
         We are a dedicated team committed to providing the best service in the industry.
