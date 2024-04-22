@@ -11,7 +11,7 @@ export const LandingHero = () => {
   const { isSignedIn } = useAuth();
 
   return (
-   <div className="grid grid-cols-3 items-center pt-32">
+   <div className="grid grid-cols-3 items-center pt-20">
      <div className="text-white font-bold px-10 text-left space-y-5 col-span-2">
       <div className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl space-y-5 font-extrabold text-left">
         <h1>The Best AI Tool for</h1>
